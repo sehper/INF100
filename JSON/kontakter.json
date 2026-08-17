@@ -1,0 +1,33 @@
+{
+  "contacts": [
+    {
+      "name": "Martin",
+      "number": "+47 12345678",
+      "address": {
+        "street": "Gateveien",
+        "number": 24,
+        "country": "Norway"
+      }
+    },
+    {
+      "name": "Ada",
+      "number": "+47 87654321",
+      "address": {
+        "street": "Allégaten",
+        "number": 42,
+        "country": "Norway"
+      }
+    }
+  ],
+  "last missed call": {
+    "timestamp": {
+      "year": 2025,
+      "month": 8,
+      "day": 19,
+      "hour": 14,
+      "minute": 15,
+      "second": 0
+    },
+    "number": "+47 12345678"
+  }
+}
