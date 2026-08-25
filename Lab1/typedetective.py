@@ -1,0 +1,9 @@
+a = int
+b = float
+c = float
+d = int
+e = str
+f = bool
+g = int
+h = int
+i = "error"
