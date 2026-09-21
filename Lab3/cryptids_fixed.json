@@ -1,0 +1,66 @@
+{
+    "arkiv": "Nordisk kryptozoologisk register",
+    "versjon": 3,
+    "sist_oppdatert": "2026-08-30",
+    "kryptider": [
+      {
+        "navn": "Selma",
+        "sted": "Seljordsvatnet",
+        "observasjoner": 187,
+        "farlig": false,
+        "lengde_m": 12.5,
+        "kjennetegn": ["lang hals", "svart rygg", "bølger uten båt"],
+        "siste_rapport": {
+          "observator": "Ingrid Fossum",
+          "år": 2019
+        }
+      },
+      {
+        "navn": "Draugen",
+        "sted": "Helgelandskysten",
+        "observasjoner": 42,
+        "farlig": true,
+        "lengde_m": 2.1,
+        "kjennetegn": ["halv båt", "tang i håret"],
+        "siste_rapport": {
+          "observator": "Kåre Nilsen",
+          "år": 1996
+        }
+      },
+      {
+        "navn": "Nøkken",
+        "sted": "Alle ferskvann",
+        "observasjoner": 0,
+        "farlig": true,
+        "lengde_m": 1.9,
+        "kjennetegn": ["spiller fele", "hvit hest"],
+        "siste_rapport": {
+          "observator": "ukjent",
+          "år": 1852
+        }
+      },
+      {
+        "navn": "Huldra",
+        "sted": "Skogen",
+        "observasjoner": 63,
+        "farlig": null,
+        "kjennetegn": ["hale", "forsvinner"],
+        "siste_rapport": {
+          "observator": "Per Aas",
+          "år": 2011
+        }
+      },
+      {
+        "navn": "Lindormen",
+        "sted": "Mjøsa",
+        "observasjoner": 4,
+        "farlig": true,
+        "lengde_m": 8.0,
+        "kjennetegn": ["skjell", "manke"],
+        "siste_rapport": {
+          "observator": "A. Bakke",
+          "år": 2031
+        }
+      }
+    ]
+  }

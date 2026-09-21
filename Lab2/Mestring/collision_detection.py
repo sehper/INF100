@@ -12,7 +12,7 @@ La metoden returnere True dersom sirkelen overlapper rektangelet, og False hvis 
 Dersom sirkelen og rektangelet deler kun ett enkelt punkt regnes det fremdeles som at de er overlappende.
 '''
 
-def rectangles_overlap(x1, y1, x2, y2, x3, y3, x4, y4):  #Dette programmet er egt bare point_in_rectangle bare du sjekker begge hjørner
+def rectangles_overlap(x1, y1, x2, y2, x3, y3, x4, y4):  
     x1min = min(x1, x2)
     x1max = max(x1, x2)
     y1min = min(y1, y2)
@@ -50,17 +50,14 @@ def circle_overlaps_rectangle(x1, y1, x2, y2, xc, yc, rc):
     elif yc > ymax:
         yclosest = ymax
 
-    if ((xc - xclosest)**2 + (yc - yclosest)**2)**0.5 <= rc:
-        return True
-    
-    return False
+    return ((xc - xclosest)**2 + (yc - yclosest)**2)**0.5 <= rc
 
 '''
 jeg finner hvilken x og y verdi som er nærmest x og y for sirkelen, dersom x eller y for sirkelen er inne i 
 rektangelet resulterer det at lengden sin retningsvektor for x = 0
 '''
 
-
+'''
 def test_rectangles_overlap():
     print('Tester rectangles_overlap... ', end='')
     assert rectangles_overlap(0, 0, 5, 5, 2, 2, 6, 6) is True # Delvis overlapp
@@ -71,9 +68,9 @@ def test_rectangles_overlap():
     print('OK')
 
 test_rectangles_overlap()
+'''
 
-
-'''   
+ 
 def test_circle_overlaps_rectangle():
     print('Tester circle_overlaps_rectangle... ', end='')
     assert circle_overlaps_rectangle(0, 0, 5, 5, 2.5, 2.5, 2) is True # på midten
@@ -85,4 +82,3 @@ def test_circle_overlaps_rectangle():
     print('OK')
 
 test_circle_overlaps_rectangle()
-'''
