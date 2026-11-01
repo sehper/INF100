@@ -1,7 +1,6 @@
 import json
 from pathlib import Path
 
-
 qr_layout = json.loads(Path("qrv2_layout.json").read_text(encoding="utf-8"))
 
 def set_fixed_fields(matrix, qr_layout):

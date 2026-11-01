@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 from qr2_matrix_completion import set_fixed_fields, set_meta_fields
 
-
 qr_layout = json.loads(Path("qrv2_layout.json").read_text(encoding="utf-8"))
 meta_patterns = qr_layout["meta_patterns"]
 
@@ -39,9 +38,9 @@ def score_matrix(matrix):
     for i in range(len(matrix)):
         for j in range(len(matrix[0])):
             if matrix[i][j] == 0:
-                count -= 1
+                count -= 2
     
-    return count
+    return abs(count)
 
 def get_refined_matrix(raw_matrix, error_correction_level, qr_layout):
     candidates = []
@@ -58,8 +57,5 @@ def get_refined_matrix(raw_matrix, error_correction_level, qr_layout):
     return candidates[best]
 
 
-    
-
-    
 
 

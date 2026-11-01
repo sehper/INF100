@@ -15,7 +15,8 @@ def draw_qr(canvas, x_left, y_top, size, qr):
 
             canvas.create_rectangle(
                 x, y, x + square, y + square,
-                fill=color
+                fill=color,
+                outline=''
             )
 
 
