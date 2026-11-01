@@ -1,0 +1,4 @@
+4 99 -98
+foo 42 qux
+foo bar quz
+catching 42

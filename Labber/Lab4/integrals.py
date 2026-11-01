@@ -1,7 +1,6 @@
 def g(x):
     return 1/8 * x**2 - 2 * x + 10
 
-
 def approx_area_under_g(x_lo, x_hi):
     total = 0
 

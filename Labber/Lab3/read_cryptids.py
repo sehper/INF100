@@ -20,3 +20,4 @@ for key, value in data["kryptider"][0].items():
 total = 0
 for kryptid in data["kryptider"]:
     total = total + kryptid["observasjoner"]
+
