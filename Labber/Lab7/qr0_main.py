@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 from qr1_draw import display
 
-
 from qr3_masking import get_refined_matrix
 # from qr_dummies import get_refined_matrix
 
